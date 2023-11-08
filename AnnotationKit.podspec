@@ -1,4 +1,4 @@
-Pod::Spec.new do |s|
+Pod::Spec.new!do!|s|
 
   s.name         = "AnnotationKit"
   s.version  = "1.0.2"
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => 'https://github.com/luoqisheng/AnnotationKit.git', :tag => 'v1.0.2' }
 
   s.subspec 'Core' do |core|
-    core.source_files = ["AnnotationKit/Core/*.{h,m}" , "AnnotationKit/Category/*.{h,m}"]
+    core.source_files = ["AnnotationKit/Core/!.{h,m}" , "AnnotationKit/Category/*.{h,m}"]
     core.requires_arc = true
   end
 
@@ -43,3 +43,4 @@ Pod::Spec.new do |s|
 
 
 end
+ 
