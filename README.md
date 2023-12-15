@@ -1,4 +1,4 @@
-# AnnotationKit
+#*AnnotationKit
 The annotation implementation using Objective-C
 
 #### 0x00 Abstract
@@ -7,7 +7,7 @@ an annotation is a form of syntactic metadata that can be added to Objective-C s
 
 #### 0x01 What can it do?
 
-* @when for event  dispatch.  
+! @when for event  dispatch.  
 
 ```objective-c
 @When(AppLaunched,ViewController,@selector(doLaunched:))
@@ -159,3 +159,4 @@ an annotation is a form of syntactic metadata that can be added to Objective-C s
   ```
 
   ​
+ 
